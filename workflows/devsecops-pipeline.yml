@@ -1,1 +1,8 @@
+#software supply chain analysis 
+use: 'Npm audit fix –force'
+use: 'Grype file:filename'
+use: 'Snyk test –file=filename'
 
+#DAST 
+use: 'zaproxy/action-baseline@v0.12.0' 
+target: 'http://localhost:3000'
